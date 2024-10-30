@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-app</title>
+</head>
+
+<body>
+    <img class="position-absolute w-100 h-100" src="https://e0.pxfuel.com/wallpapers/654/149/desktop-wallpaper-dark-forest-with-moon-dark-forest-computer.jpg" alt="">
+    <div class="container position-relative d-flex flex-column justify-content-center align-items-center">
+        <h1 class="fw-bold position-relative text-center text-white">Wheather-API</h1>
+        <input class="p-2 w-50 border rounded" type="text" id="city" placeholder="Enter City Name">
+        <button class="m-3 btn btn-primary" onclick="callApi()">Search</button>
+        <p class="text-white fs-5 fw-bold" id="temperature">Temperature:</p>
+        <p class="text-white fs-5 fw-bold" id="wind">Wind:</p>
+    </div>
+
+</body>
+<script src="javascript.js"></script>
+
+</html>
